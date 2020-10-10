@@ -1,0 +1,54 @@
+{
+  "ExtraLifeType": {
+    "group": "Goal",
+    "label": "Extra Life Type",
+    "type": "dropdown",
+    "options": {
+      "participants": "Participant",
+      "teams": "Team"
+    },
+    "value": "participant"
+  },
+  "participantId": {
+    "group": "Goal",
+    "label": "Participant/Team ID",
+    "type": "text"
+  },
+  "enableAlerts": {
+    "group": "Alert",
+    "label": "Enable Alerts",
+    "type": "checkbox",
+    "value": true
+  },
+  "alertSound": {
+    "group": "Alert",
+    "label": "Alert Sound",
+    "type": "sound-input"
+  },
+  "testAlert": {
+    "group": "Alert",
+    "label": "Test Alert",
+    "type": "button"
+  },
+  "size": {
+    "group": "Goal",
+    "label": "Size",
+    "type": "dropdown",
+    "value": "small",
+    "options": {
+      "small": "Small",
+      "medium": "Medium",
+      "large": "Large"
+    }
+  },
+  "sideDisplay": {
+    "group": "Goal",
+    "label": "Side Display",
+    "type": "dropdown",
+    "value": "left",
+    "options": {
+      "right": "Right",
+      "left": "Left"
+    }
+  }
+}
